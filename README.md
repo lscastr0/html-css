@@ -1,2 +1,2 @@
 # html-css
- Curso HTML5 e CSS3 do curso em video
+Projetos e mini-projetos que faço para praticar HTML5 e CSS3
