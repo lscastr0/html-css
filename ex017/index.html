@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo-Classes</title>
+    <style>
+
+        .escondido{
+            display: none; 
+        }
+        div:hover > p{
+            color: red;
+        }
+        div:hover > .escondido{
+            display: block;
+            color: black;
+        }
+
+        img{
+            border: 1px solid red;
+        }
+
+    </style>
+</head>
+
+<body>
+    <h1>Pseudo-Classes</h1>
+    <h2>Texto escondido</h2>
+    <div>
+        <p>passe o mouse aqui</p>
+        <p class="escondido">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sequi dolorem deserunt inventore
+            culpa! Perferendis mollitia illo culpa magni quis, dolor debitis ducimus, esse aut suscipit enim non modi ex
+            quisquam!</p>
+    </div>
+    <img src="#" alt="Teste qualquer">
+</body>
+
+</html>

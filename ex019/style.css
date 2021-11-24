@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+body{
+    font: 1em Arial, Helvetica, sans-serif;
+}
+
+p{
+    text-align: justify;
+}
+
+p.amarelo{
+    background-color: rgb(249, 255, 136);
+}
+
+p.centro{
+    text-align: center;
+}
