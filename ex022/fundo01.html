@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teste de imagens 1</title>
+    <style>
+        div.fundo{
+            border: 1px solid black;
+            height: 300px;
+            min-width: 300px;
+            display: inline-block
+        }
+
+        #fundo1{
+            background-color: skyblue;
+        }
+
+        #fundo2{
+            background-image: linear-gradient(red, yellow);
+        }
+
+        #fundo3{
+            background-image: url(image/pattern001.png);
+        }
+
+    </style>
+</head>
+<body>
+    <div id="fundo1" class="fundo"></div>
+    <div id="fundo2" class="fundo"></div>
+    <div id="fundo3" class="fundo"></div>
+</body>
+</html>
