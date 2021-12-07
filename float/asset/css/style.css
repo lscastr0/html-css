@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #02090f;
+}
+
+.float{
+    padding: 20px;
+}
+
+.float .element{
+    height: 300px;
+    width: 33.33%;
+    float: left;
+    padding: 5px;
+    text-align: center;
+}
+
+.content{
+    background-color: #DE541E;
+    height: 100%;
+    width: 100%;
+}
+
+.float::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+p{
+    color: whitesmoke;
+}
